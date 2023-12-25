@@ -41,7 +41,7 @@ img {
 }
 h4 {
   display: block;
-  color: #2d3757;
+  color: #f7941e;
   font-size: 27px;
   line-height: 1.3;
 }
@@ -62,7 +62,7 @@ a {
   color: #8c8c8c;
 }
 a:hover {
-  color: #2d3757;
+  color: #f7941e;
   text-decoration: none;
 }
 .form-control {
@@ -120,10 +120,10 @@ input:-ms-input-placeholder {
   color: #000000 !important;
 }
 .color-theme {
-  color: #3021ec !important;
+  color: #f05a29 !important;
 }
 .color-dark {
-  color: #2d3757 !important;
+  color: #f7941e !important;
 }
 .color-light {
   color: #8c8c8c !important;
@@ -136,10 +136,10 @@ input:-ms-input-placeholder {
   transition: 0.3s;
 }
 .color-theme-hover:hover {
-  color: #3021ec !important;
+  color: #f05a29 !important;
 }
 .bg-theme {
-  background-color: #3021ec !important;
+  background-color: #f05a29 !important;
 }
 .weight-700 {
   font-weight: 700 !important;
@@ -258,8 +258,8 @@ input:-ms-input-placeholder {
 .logo {
   position: relative;
   display: block;
-  width: 39px;
-  height: 39px;
+  width: 100px;
+  height: 65px;
   z-index: 10;
 }
 .logo img {
@@ -288,7 +288,7 @@ input:-ms-input-placeholder {
   border-radius: 30px;
   text-align: center;
   padding-top: 15px;
-  color: #2d3757;
+  color: #f7941e;
   text-decoration: none;
 }
 .dropdown a {
@@ -342,7 +342,7 @@ input:-ms-input-placeholder {
 }
 .list-inline li.active a,
 .list-inline li.is-checked a {
-  color: #3021ec;
+  color: #f05a29;
 }
 .list-inline.list-menu {
   margin: 0 auto;
@@ -352,12 +352,12 @@ input:-ms-input-placeholder {
 }
 .list-inline.list-menu li.active a,
 .list-inline.list-menu li.is-checked a {
-  border-bottom: solid 2px #3021ec;
+  border-bottom: solid 2px #f05a29;
 }
 .arrow-right {
   display: inline-block;
   border: solid 5px transparent;
-  border-left-color: #3021ec;
+  border-left-color: #f05a29;
 }
 .caret {
   border-width: 5px;
@@ -370,11 +370,11 @@ input:-ms-input-placeholder {
 .btn {
   display: inline-block;
   padding: 18px 20px;
-  background-color: #3021ec;
+  background-color: #f05a29;
   color: #ffffff;
   border-radius: 30px;
   font-weight: lighter;
-  border: solid 2px #3021ec;
+  border: solid 2px #f05a29;
   text-align: center;
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
@@ -389,10 +389,10 @@ input:-ms-input-placeholder {
 }
 .btn:hover {
   background-color: #ffffff;
-  color: #3021ec;
+  color: #f05a29;
 }
 .btn:hover .arrow-right {
-  border-left-color: #3021ec;
+  border-left-color: #f05a29;
 }
 .btn.btn-center {
   display: block;
@@ -421,27 +421,27 @@ input:-ms-input-placeholder {
   }
 }
 .btn.btn-dark {
-  background-color: #2d3757;
-  border-color: #2d3757;
+  background-color: #f7941e;
+  border-color: #f7941e;
 }
 .btn.btn-dark:hover {
   background-color: #ffffff;
-  color: #2d3757;
+  color: #f7941e;
 }
 .btn.btn-dark:hover .arrow-right {
-  border-left-color: #2d3757;
+  border-left-color: #f7941e;
 }
 .btn.btn-gray {
   background-color: #ebebeb;
   border-color: #ebebeb;
-  color: #2d3757;
+  color: #f7941e;
 }
 .btn.btn-gray:hover {
   background-color: #ffffff;
-  color: #2d3757;
+  color: #f7941e;
 }
 .btn.btn-gray:hover .arrow-right {
-  border-left-color: #2d3757;
+  border-left-color: #f7941e;
 }
 .btn.btn-next {
   display: block;
@@ -585,7 +585,7 @@ input:-ms-input-placeholder {
   margin-bottom: 4px;
 }
 .offers a span {
-  color: #2d3757;
+  color: #f7941e;
   font-weight: 600;
 }
 .offers a .hover {
@@ -654,7 +654,7 @@ input:-ms-input-placeholder {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: #3021ec;
+  background-color: #f05a29;
   -moz-opacity: 0;
   -khtml-opacity: 0;
   opacity: 0;
@@ -695,7 +695,7 @@ input:-ms-input-placeholder {
 .preview .description {
   display: block;
   margin-top: 30px;
-  color: #2d3757;
+  color: #f7941e;
   font-size: 18px;
 }
 .preview .url {
@@ -716,7 +716,7 @@ input:-ms-input-placeholder {
   padding-top: 12px;
   content: 'View case study';
   background-color: #ffffff;
-  color: #2d3757;
+  color: #f7941e;
   border-radius: 30px;
   -webkit-transform: translate(-50%, -50%);
   -moz-transform: translate(-50%, -50%);
@@ -765,7 +765,7 @@ input:-ms-input-placeholder {
   bottom: 20px;
   left: 30px;
   right: 30px;
-  color: #2d3757;
+  color: #f7941e;
 }
 .comment .caption::after {
   position: absolute;
@@ -871,13 +871,13 @@ i.fa.fa-star {
   color: #ebebeb;
 }
 i.fa.fa-star.active {
-  color: #3021ec;
+  color: #f05a29;
 }
 .features > div > a,
 .features .features-info {
   display: block;
-  padding: 66px 30px;
-  margin-bottom: 30px;
+  padding: 36px 20px;
+  margin-bottom: 20px;
   background-color: #ffffff;
   text-align: center;
 }
@@ -910,7 +910,7 @@ i.fa.fa-star.active {
 .features .features-info h6 {
   font-size: 18px;
   font-weight: 600;
-  color: #2d3757;
+  color: #f7941e;
 }
 .features > div > a h5,
 .features .features-info h5 {
@@ -954,7 +954,7 @@ i.fa.fa-star.active {
 }
 .features .features-info table tr td:first-child {
   width: 46%;
-  color: #2d3757;
+  color: #f7941e;
 }
 .features .features-info table tr td:last-child {
   width: 54%;
@@ -962,7 +962,7 @@ i.fa.fa-star.active {
   padding-right: 0;
 }
 .features .features-info table tr td a {
-  color: #3021ec;
+  color: #f05a29;
 }
 .features .features-info table .tags a {
   display: inline-block;
@@ -1053,8 +1053,8 @@ i.fa.fa-star.active {
   display: block;
   width: 8px;
   height: 12px;
-  border-right: solid 2px #2d3757;
-  border-bottom: solid 2px #2d3757;
+  border-right: solid 2px #f7941e;
+  border-bottom: solid 2px #f7941e;
   left: 6px;
   top: 2px;
   display: none;
@@ -1124,7 +1124,7 @@ i.fa.fa-star.active {
 .i-block-section .i-block h5 {
   font-weight: 600;
   font-size: 18px;
-  color: #2d3757;
+  color: #f7941e;
 }
 .i-block-section .i-block p {
   max-width: 230px;
@@ -1264,7 +1264,7 @@ i.fa.fa-star.active {
   margin-right: 4px;
 }
 .breadcrumbs li a {
-  color: #3021ec;
+  color: #f05a29;
 }
 .sv-video {
   width: 100%;
@@ -1343,7 +1343,7 @@ i.fa.fa-star.active {
 }
 .icons li a:hover i,
 .social-icons li a:hover i {
-  color: #2d3757;
+  color: #f7941e;
 }
 .icons li:not(:last-child),
 .social-icons li:not(:last-child) {
@@ -1363,7 +1363,7 @@ i.fa.fa-star.active {
 .form-section label {
   display: block;
   margin-bottom: 22px;
-  color: #2d3757;
+  color: #f7941e;
   font-size: 18px;
   font-weight: 500;
 }
@@ -1381,7 +1381,7 @@ i.fa.fa-star.active {
 .form-section .btn-group.btn-group-upload .btn {
   border-radius: 8px;
   background-color: #ebebeb;
-  color: #2d3757;
+  color: #f7941e;
 }
 .form-section .btn-group.btn-group-upload .btn:hover {
   background-color: #ffffff;
@@ -1410,8 +1410,8 @@ i.fa.fa-star.active {
 }
 .form-section .btn:hover {
   background-color: #ffffff;
-  color: #3021ec !important;
-  border-color: #3021ec;
+  color: #f05a29 !important;
+  border-color: #f05a29;
 }
 .form-section .form-control {
   border-radius: 8px;
@@ -1646,7 +1646,7 @@ footer ul.footer-menu > li {
 footer ul.footer-menu > li > a {
   display: block;
   font-weight: 600;
-  color: #2d3757;
+  color: #f7941e;
 }
 footer form {
   position: relative;
@@ -1872,7 +1872,7 @@ main.services .btn-small {
 }
 main.services .comment > p {
   font-size: 27px;
-  color: #2d3757;
+  color: #f7941e;
   line-height: 33px;
   font-weight: normal;
 }
@@ -2002,7 +2002,7 @@ main.cart .container .features .table tr td:last-child {
 main.cart .container h5 {
   font-size: 18px;
   font-weight: 600;
-  color: #2d3757;
+  color: #f7941e;
   margin-bottom: 24px;
 }
 main.cart .container .cart-block .table tr td {
@@ -2016,7 +2016,7 @@ main.cart .container .cart-block .table .total td {
   font-weight: 600;
 }
 main.cart .container .cart-block .table .total td:last-child {
-  color: #2d3757;
+  color: #f7941e;
 }
 main.cart .container .cart-block .payment {
   background-color: #ffffff;
@@ -2092,7 +2092,7 @@ main.cart .container .cart-block .payment .payment-method > div.active::before {
   width: 0;
   top: 0;
   right: 0;
-  border-right: solid 2px #3021ec;
+  border-right: solid 2px #f05a29;
 }
 @media only screen and (max-width: 768px) and (min-width: 540px) {
   main.cart .container .cart-block .payment .payment-method > div.active::before {
@@ -2102,7 +2102,7 @@ main.cart .container .cart-block .payment .payment-method > div.active::before {
     bottom: 0;
     left: 0;
     border: none;
-    border-bottom: solid 2px #3021ec;
+    border-bottom: solid 2px #f05a29;
   }
 }
 main.cart .container .cart-block .payment .payment-info {
@@ -2112,7 +2112,7 @@ main.cart .container .cart-block .payment .payment-info {
 main.cart .container .cart-block .payment .payment-info label:not(.checkbox-default) {
   display: block;
   font-weight: normal;
-  color: #2d3757;
+  color: #f7941e;
   margin-bottom: 10px;
 }
 main.cart .container .cart-block .payment .payment-info input,
@@ -2143,7 +2143,7 @@ main.cart .container .cart-block .payment .payment-info .checkbox-text {
 }
 main.cart .container .cart-block .payment .payment-info .table tr td {
   border-bottom: 1px solid #ddd;
-  color: #2d3757;
+  color: #f7941e;
 }
 main.cart .container .cart-block .payment .payment-info .table tr td:first-child {
   font-weight: normal;
@@ -2193,7 +2193,7 @@ main.downloads .product-list .block .features-info {
 main.downloads .product-list .block .features-info h6 {
   font-size: 18px;
   line-height: 25px;
-  color: #2d3757;
+  color: #f7941e;
   font-weight: normal;
 }
 main.downloads .product-list .block .features-info .table {
@@ -2203,7 +2203,7 @@ main.downloads .product-list .block .features-info .table tr td {
   padding: 18px 0;
 }
 main.downloads .product-list .block .features-info .table tr td:first-child {
-  color: #2d3757;
+  color: #f7941e;
 }
 main.downloads .product-list .block .features-info .table tr:first-child td {
   border-top: none;
@@ -2285,7 +2285,7 @@ main.case-study .container .comment {
 }
 main.case-study .container .comment > p {
   font-size: 27px;
-  color: #2d3757;
+  color: #f7941e;
   line-height: 1.1;
   font-weight: 400;
 }
@@ -2330,7 +2330,7 @@ main.case-study .container .features .features-info {
 main.case-study .container .features h6 {
   font-size: 16px;
   font-weight: 600;
-  color: #2d3757;
+  color: #f7941e;
   margin: 0;
   margin-bottom: 0px;
 }
@@ -2351,7 +2351,7 @@ main.pricing .container .price-block {
 main.pricing .container .price-block h6 {
   font-size: 18px;
   font-weight: 400;
-  color: #2d3757;
+  color: #f7941e;
   margin-bottom: 6px;
 }
 main.pricing .container .price-block p:nth-child(2) {
@@ -2368,7 +2368,7 @@ main.pricing .container .price-block p.border-decor::after {
 main.pricing .container .price-block span {
   font-weight: 600;
   font-size: 40px;
-  color: #2d3757;
+  color: #f7941e;
 }
 main.pricing .container .price-block ul {
   margin-bottom: 24px;
@@ -2389,7 +2389,7 @@ main.pricing .container .articles .text-block {
 main.pricing .container .articles .text-block h5 {
   font-size: 18px;
   font-weight: 600;
-  color: #2d3757;
+  color: #f7941e;
   margin: 0 0 18px;
   line-height: 1.4;
 }
@@ -2485,7 +2485,7 @@ main.knowledge-base-single-topic .left-col .features-info {
 main.knowledge-base-single-topic .find-purchase h5 {
   font-size: 18px;
   font-weight: 600;
-  color: #2d3757;
+  color: #f7941e;
   margin-bottom: 40px;
 }
 main.knowledge-base-single-topic .find-purchase ol li {
@@ -2498,7 +2498,7 @@ main.knowledge-base-single-topic .block-ask-message {
   min-height: 100px;
   padding: 20px 50px 30px 100px;
   background-color: #f0eff9;
-  border-left: solid 2px #3021ec;
+  border-left: solid 2px #f05a29;
 }
 main.knowledge-base-single-topic .block-ask-message .icon-light {
   position: absolute;
@@ -2511,7 +2511,7 @@ main.knowledge-base-single-topic .block-ask-message .icon-light {
 main.knowledge-base-single-topic .block-ask-message p {
   font-weight: lighter;
   font-size: 16px;
-  color: #2d3757;
+  color: #f7941e;
 }
 @media only screen and (max-width: 610px) {
   main.knowledge-base-single-topic .social > div {
@@ -2533,7 +2533,7 @@ main.contact-support > .btn.btn-large {
 }
 main.about-us .text-block:nth-child(3) p {
   max-width: 960px;
-  color: #2d3757;
+  color: #f7941e;
   font-size: 23px;
   font-weight: normal;
 }
@@ -2569,7 +2569,7 @@ main.about-us .team-info .tm-block .txt span {
 }
 main.about-us .team-info .tm-block .txt p {
   font-weight: 600;
-  color: #2d3757;
+  color: #f7941e;
   margin-bottom: 4px;
 }
 main.about-us .team-info .tm-block .txt span {
