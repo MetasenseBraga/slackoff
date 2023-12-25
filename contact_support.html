@@ -58,43 +58,33 @@
                     <p class="text-center">Please describe more about your problem here. Feel free to digress if you want more things done to help you attain work-loaf balance.</p>
                 </section>
                 <section class="form-section mb-70">
-                    <form action="#" method="post">
+                    <form action="https://formspree.io/f/xzbnpwwa" method="post" enctype="multipart/form-data">
                         <div class="row">
                             <div class="col-md-12">
                                 <label>Your email*</label>
-                                <input type="email" name="" id="" class="form-control" placeholder="Add here" required>
+                                <input type="email" name="email" id="" class="form-control" placeholder="Your email" required>
                             </div>
                             <div class="col-md-12">
                                 <label>Your name</label>
                                 <input type="text" name="" id="" class="form-control" placeholder="Add here">
                             </div>
                             <div class="col-md-12">
-                                <label>Platform*</label>
-                                <select name="" id="" class="form-control" required>
-                                    <option>Select one</option>
-                                    <option>Select two</option>
-                                    <option>Select three</option>
+                                <label>Select a Category*</label>
+                                <select name="Category" id="" class="form-control" required>
+                                    <option>Work</option>
+                                    <option>Tools</option>
+                                    <option>Advice</option>
                                 </select>
                             </div>
                             <div class="col-md-12">
-                                <label>Description*</label>
-                                <textarea name="" id="" class="form-control" required>Add here</textarea>
+                                <label>Message*</label>
+                                <textarea name="" id="" class="form-control" required>Details</textarea>
                             </div>
                             <div class="col-md-12">
-                                <label>Upload additional files</label>
-                                <div class="btn-group btn-group-lg btn-group-upload">
-                                    <div class="row">
-                                        <div class="col-md-4 col-sm-4">
-                                            <input type="button" class="btn btn-primary" value="File1">
-                                        </div>
-                                        <div class="col-md-4 col-sm-4">
-                                            <input type="button" class="btn btn-primary" value="File2">
-                                        </div>
-                                        <div class="col-md-4 col-sm-4">
-                                            <input type="button" class="btn btn-primary" value="File3">
-                                        </div>
-                                    </div>
-                                </div>
+                                <label>Upload a file
+                                    <input type="file" name="upload" value="File">
+                                  </label>
+                                  <button type="submit" class="btn btn-primary">Send</button>
                             </div>
                         </div>
                     </form>
